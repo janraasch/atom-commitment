@@ -1,0 +1,35 @@
+{
+  "name": "commitment",
+  "main": "./lib/commitment",
+  "scripts": {
+    "lint": "coffeelint lib spec",
+    "apm": "apm test",
+    "test": "npm run lint && npm run apm"
+  },
+  "version": "0.1.0",
+  "description": "A commit message generator for atom",
+  "activationCommands": {
+    "atom-workspace": "commitment:toggle"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^0.58.0": "consumeStatusBar"
+      }
+    }
+  },
+  "repository": "https://github.com/janraasch/atom-commitment",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "react-atom-fork": "^0.11.0",
+    "reactionary-atom-fork": "^0.9.0",
+    "javascript-commitment": "^0.1.0"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.8.1",
+    "sinon": "^1.12.2"
+  }
+}
