@@ -8,7 +8,7 @@
 
 Hit `Ctrl+Alt+L`,`Ctrl+Alt+O`,`Ctrl+Alt+L` and you will see a random commit message printed to the status bar. The commit message is also added to your clipboard, so paste away.
 
-![screenshot](screenshot.png)
+![screenshot](https://raw.githubusercontent.com/janraasch/atom-commitment/master/screenshot.png)
 
 The messsage and the permalink to the [web version](http://whatthecommit.com/) are printed to the console as well.
 
