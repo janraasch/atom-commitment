@@ -29,6 +29,7 @@
     "javascript-commitment": "^0.1.0"
   },
   "devDependencies": {
+    "coffee-script": "^1.9.0",
     "coffeelint": "^1.8.1",
     "sinon": "^1.12.2"
   }
