@@ -8,7 +8,7 @@ permalink = 'http://link.com/123'
 sinon = require 'sinon'
 atomCommitment = require '../lib/commitment'
 
-describe 'atomCommitment', ->
+describe 'commitment', ->
   describe '.consumeStatusBar', ->
     statusBar = {
       addLeftTile: null
