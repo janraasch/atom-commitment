@@ -1,3 +1,8 @@
+## 0.1.2 (2015-04-08)
+
+### Maintenance
+* Update `status-bar` service's version requirement
+
 ## 0.1.1 (2015-02-17)
 
 ### Maintenance
