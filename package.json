@@ -24,9 +24,9 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {
-    "react-atom-fork": "^0.11.0",
-    "reactionary-atom-fork": "^0.9.0",
-    "javascript-commitment": "^0.1.0"
+    "react-atom-fork": "^0.11.5",
+    "reactionary-atom-fork": "^1.0.0",
+    "javascript-commitment": "^0.1.2"
   },
   "devDependencies": {
     "coffee-script": "^1.9.0",
