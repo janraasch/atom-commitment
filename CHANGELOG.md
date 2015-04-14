@@ -1,4 +1,9 @@
-## 0.1.2 (2015-04-08)
+## 0.1.3 (2015-04-14)
+
+### Maintenance
+* Update dependencies
+
+## 0.1.2 (2015-04-14)
 
 ### Maintenance
 * Update `status-bar` service's version requirement
