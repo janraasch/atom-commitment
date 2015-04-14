@@ -36,7 +36,7 @@ describe 'commitment', ->
       commitment.whatThe = -> {message, permalink}
       workspaceElement = atom.views.getView atom.workspace
       activationPromise = atom.packages.activatePackage 'commitment'
-      atom.services.consume 'status-bar', '^0.58.0', (_statusBar) ->
+      atom.services.consume 'status-bar', '^1.0.0', (_statusBar) ->
         statusBar = _statusBar
       waitsForPromise ->
         atom.packages.activatePackage 'status-bar'
